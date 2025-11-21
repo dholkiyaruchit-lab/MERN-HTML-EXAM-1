@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrytoM5 - Table Layout</title>
+    <style>
+        table { 
+            border-collapse:collapse; 
+            width:100%; 
+        }
+        .header-table, .nav-table, .hero-table { 
+            border:3px solid #777;
+         }
+        .header-table td { 
+            padding:10px; 
+        }
+        .nav-table td { 
+            padding:6px 8px;
+         }
+        .nav-table a { 
+            text-decoration:none;
+             color:#4b2ca6;
+              font-size:14px;
+             }
+        .hero-left .eyebrow { 
+            color:#8a5bd6;
+             font-size:13px;
+              letter-spacing:1px;
+             }
+        .hero-left h2 {
+             margin:6px 0 12px 0;
+              font-size:44px; 
+            }
+        .feature-box { 
+            border:1px solid #777; 
+            padding:18px; 
+            text-align:center; 
+            vertical-align:top;
+         }
+        .feature-title { 
+            font-weight:bold;
+             margin-top:8px;
+             }
+        .icon { 
+            font-size:28px;
+             color:#8a5bd6;
+             }
+        img.responsive { 
+            display:block; 
+            width:100%;
+             height:100%;
+              object-fit:cover;
+             }
+    </style>
+</head>
+<body style="font-family: Georgia, 'Times New Roman', serif;background:#ffffff;color:#111;margin:20px;">
+    <table style="width:1000px; margin:0 auto;">
+        <tbody>
+        <tr>
+            <td>
+                <table class="header-table" width="100%">
+                    <tbody>
+                    <tr>
+                        <td style="width:500px; font-size:40px; font-weight:bold; padding-left:12px;">CrytoM5</td>
+                        <td style="width:40%; text-align:right; vertical-align:middle;">
+                            <table class="nav-table" style="display:inline-block;">
+                                <tbody>
+                                <tr>
+                                    <td><a href="#">Home</a></td>
+                                    <td><a href="#">About</a></td>
+                                    <td><a href="#">Features</a></td>
+                                    <td><a href="#">Contact</a></td>
+                                    <td><a href="#">Login</a></td>
+                                    <td><a href="#">Register</a></td>
+                                    <td><button style="padding:6px 10px; border:1px solid #666; background:#f3f3f3;">Get Started</button></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <table class="hero-table" width="100%" style="margin-top:18px;">
+                    <tbody>
+                    <tr>
+                        <td style="width:58%; vertical-align:top;">
+                            <table width="100%" style="border:3px solid #ccc;">
+                                <tbody>
+                                <tr>
+                                    <td class="hero-left" style="padding:24px;">
+                                        <div class="eyebrow" style="color:#8a5bd6; font-size:13px; letter-spacing:1px;">CRYPTO PLATFORM</div>
+                                        <h2>Crypto Trade<br/>Agency</h2>
+                                        <p class="small" style="font-size:14px; color:#333; line-height:1.4;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt labore dolore magna aliqua.</p>
+                                        <p><button style="padding:6px 10px; border:1px solid #666; background:#f3f3f3;">Get Started</button></p>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td style="width:42%; vertical-align:top;">
+                            <table width="100%" style="border:3px solid #ccc;">
+                                <tbody>
+                                <tr>
+                                    <td style="padding:0;">
+                                        <img class="responsive" src="./Assets/Screenshot 2025-11-21 170952.png" alt="crypto image">
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <!-- Features title and grid -->
+                <table width="100%" style="margin-top:22px; border:3px solid #444;">
+                    <tbody>
+                    <tr>
+                        <td style="padding:10px; text-align:center;">
+                            <div class="features-title" style=" font-size:36px; text-align:center; font-weight:bold;">Our Features</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" style="border-collapse:separate; border-spacing:0;">
+                                <tbody>
+                                <tr>
+                                    <td class="feature-box" style="width:33.33%; border-right:1px solid #777;"><div class="icon">📦</div><div class="feature-title">Wallets</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                    <td class="feature-box" style="width:33.33%; border-right:1px solid #777;"><div class="icon">🛒</div><div class="feature-title">Trade</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                    <td class="feature-box" style="width:33.33%;"><div class="icon">📈</div><div class="feature-title">Exchange</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                </tr>
+                                <tr>
+                                    <td class="feature-box" style="border-top:1px solid #777; border-right:1px solid #777;"><div class="icon">⚙️</div><div class="feature-title">Processing</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                    <td class="feature-box" style="border-top:1px solid #777; border-right:1px solid #777;"><div class="icon">🔍</div><div class="feature-title">Analytics</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                    <td class="feature-box" style="border-top:1px solid #777;"><div class="icon">💱</div><div class="feature-title">Pairs</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                </tr>
+                                <tr>
+                                    <td class="feature-box" style="border-top:1px solid #777; border-right:1px solid #777;"><div class="icon">🧾</div><div class="feature-title">Reports</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                    <td class="feature-box" style="border-top:1px solid #777; border-right:1px solid #777;"><div class="icon">💳</div><div class="feature-title">Payments</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                    <td class="feature-box" style="border-top:1px solid #777;"><div class="icon">🔒</div><div class="feature-title">Security</div><div class="small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt.</div></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <!-- About US Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #000;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:10px; text-align:center;">
+                                <h1 style="font-size:36px; font-weight:bold; margin:0;">About US</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" style="margin-top:0; border:3px solid #000; border-top:none;">
+                    <tbody>
+                        <tr>
+                            <td style="width:15%; border-right:2px solid #000; padding:15px; vertical-align:top;">
+                                <div style="font-weight:bold; margin-bottom:10px;">Wallets</div>
+                                <div style="font-weight:bold; margin-bottom:10px;">Trade</div>
+                                <div style="font-weight:bold;">Exchange</div>
+                            </td>
+                            <td style="width:85%; padding:15px; vertical-align:top;">
+                                <p style="color:#888; font-size:14px; line-height:1.6; margin:0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut placerat felis. Etiam nec rhoncus purus, a sollicitudin turpis. Pellentesque sit amet justo purus. Cras ac interdum dui. Mauris placerat non metus eu venenatis. Nam eget ornare lorem, quis pulvinar lacus. Etiam mauris lorem, molestie eu sapien sed, suscipit faucibus nisi. Proin lobortis blandit mauris, sit amet tempus felis finibus fringilla. Phasellus mattis consectetur sagittis. Aenean bibendum scelerisque nulla in consequat. Nam sed lobortis velit, non porta sem. Vestibulum pharetra, lorem et malesuada volutpat, leo ague rhoncus dui, et auctor dolor arcu non ligula.</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Our Traders Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #000;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:10px; text-align:center;">
+                                <h1 style="font-size:36px; font-weight:bold; margin:0;">Our Traders</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" style="margin-top:0; border:3px solid #000; border-top:none; border-collapse:collapse;">
+                    <tbody>
+                        <tr>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="John Smith" style="width:100%; display:block; margin-bottom:10px;">
+                                <div style="font-weight:bold; font-size:16px; margin-bottom:5px;">John Smith</div>
+                                <div style="font-weight:bold; color:#666; margin-bottom:10px;">Trader</div>
+                                <p style="font-size:13px; color:#666; line-height:1.4; margin:0 0 10px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div style="text-align:center;">
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-facebook-logo-96.png" alt="Facebook" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-twitter-logo-96.png" alt="Twitter" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-instagram-logo-94.png" alt="Instagram" style="width:30px;"></a>
+                                </div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80" alt="John Smith" style="width:100%; display:block; margin-bottom:10px;">
+                                <div style="font-weight:bold; font-size:16px; margin-bottom:5px;">John Smith</div>
+                                <div style="font-weight:bold; color:#666; margin-bottom:10px;">Trader</div>
+                                <p style="font-size:13px; color:#666; line-height:1.4; margin:0 0 10px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div style="text-align:center;">
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-facebook-logo-96.png" alt="Facebook" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-twitter-logo-96.png" alt="Twitter" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-instagram-logo-94.png" alt="Instagram" style="width:30px;"></a>
+                                </div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="John Smith" style="width:100%; display:block; margin-bottom:10px;">
+                                <div style="font-weight:bold; font-size:16px; margin-bottom:5px;">John Smith</div>
+                                <div style="font-weight:bold; color:#666; margin-bottom:10px;">Trader</div>
+                                <p style="font-size:13px; color:#666; line-height:1.4; margin:0 0 10px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div style="text-align:center;">
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-facebook-logo-96.png" alt="Facebook" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-twitter-logo-96.png" alt="Twitter" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-instagram-logo-94.png" alt="Instagram" style="width:30px;"></a>
+                                </div>
+                            </td>
+                            <td style="width:25%; padding:15px; text-align:center; vertical-align:top;">
+                                <img src="https://i.pinimg.com/736x/cc/80/9a/cc809a0a8e7fd9d70040d1279333fe68.jpg" alt="John Smith" style="width:100%; display:block; margin-bottom:10px;">
+                                <div style="font-weight:bold; font-size:16px; margin-bottom:5px;">John Smith</div>
+                                <div style="font-weight:bold; color:#666; margin-bottom:10px;">Trader</div>
+                                <p style="font-size:13px; color:#666; line-height:1.4; margin:0 0 10px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div style="text-align:center;">
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-facebook-logo-96.png" alt="Facebook" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-twitter-logo-96.png" alt="Twitter" style="width:30px;"></a>
+                                    <a href="#" style="display:inline-block; margin:0 3px;"><img src="./Assets/icons8-instagram-logo-94.png" alt="Instagram" style="width:30px;"></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Our Skills Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #000;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:10px; text-align:center;">
+                                <h1 style="font-size:36px; font-weight:bold; margin:0;">Our Skills</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" style="margin-top:0; border:3px solid #000; border-top:none; border-collapse:collapse;">
+                    <tbody>
+                        <tr>
+                            <td style="width:33.33%; border-right:2px solid #000; border-bottom:2px solid #000; padding:20px; vertical-align:top;">
+                                <div style="font-weight:bold; color:#4b2ca6; margin-bottom:12px; font-size:15px;">Analysis</div>
+                                <input type="range" min="0" max="100" value="40" style="width:100%; accent-color:#0052cc;">
+                            </td>
+                            <td style="width:33.33%; border-right:2px solid #000; border-bottom:2px solid #000; padding:20px; vertical-align:top;">
+                                <div style="font-weight:bold; color:#4b2ca6; margin-bottom:12px; font-size:14px;">Marketing</div>
+                                <input type="range" min="0" max="100" value="40" style="width:100%; accent-color:#0052cc;">
+                            </td>
+                            <td style="width:33.33%; border-bottom:2px solid #000; padding:20px; vertical-align:top;">
+                                <div style="font-weight:bold; color:#4b2ca6; margin-bottom:12px; font-size:14px;">Exchange</div>
+                                 <input type="range" min="0" max="100" value="40" style="width:100%; accent-color:#0052cc;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; vertical-align:top;">
+                                <div style="font-weight:bold; color:#4b2ca6; margin-bottom:12px; font-size:14px;">Trade</div>
+                                <input type="range" min="0" max="100" value="40" style="width:100%; accent-color:#0052cc;">
+                            </td>
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; vertical-align:top;">
+                                <div style="font-weight:bold; color:#4b2ca6; margin-bottom:12px; font-size:14px;">Processing</div>
+                                <input type="range" min="0" max="100" value="40" style="width:100%; accent-color:#0052cc;">
+
+                            </td>
+                            <td style="width:33.33%; padding:20px; vertical-align:top;">
+                                <div style="font-weight:bold; color:#4b2ca6; margin-bottom:12px; font-size:14px;">Analysis</div>
+                                <input type="range" min="0" max="100" value="40" style="width:100%; accent-color:#0052cc;">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table width="100%" style="margin-top:22px; border:3px solid #000;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:10px; text-align:center;">
+                                <h1 style="font-size:36px; font-weight:bold; margin:0;">Pricing Plan</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" style="margin-top:0; border:3px solid #000; border-top:none; border-collapse:collapse;">
+                    <tbody>
+                        <tr style="border-bottom:2px solid #000;">
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; text-align:center; vertical-align:top;">
+                                <div style="font-weight:bold; font-size:24px; margin-bottom:8px;">Free</div>
+                                <p style="font-size:14px; color:#666; margin:0;">Lorem ipsum dolor</p>
+                            </td>
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; text-align:center; vertical-align:top;">
+                                <div style="font-weight:bold; font-size:24px; margin-bottom:8px;">Pro</div>
+                                <p style="font-size:14px; color:#666; margin:0;">Lorem ipsum dolor</p>
+                            </td>
+                            <td style="width:33.33%; padding:20px; text-align:center; vertical-align:top;">
+                                <div style="font-weight:bold; font-size:24px; margin-bottom:8px;">Team</div>
+                                <p style="font-size:14px; color:#666; margin:0;">Lorem ipsum dolor</p>
+                            </td>
+                        </tr>
+                        <tr style="border-bottom:2px solid #000;">
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; text-align:center; vertical-align:middle;">
+                                <div style="font-size:28px;"><span style="font-weight:bold;">$</span><span style="font-weight:bold; font-size:36px;">0</span> <span style="font-size:14px;">p/mo</span></div>
+                            </td>
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; text-align:center; vertical-align:middle;">
+                                <div style="font-size:28px;"><span style="font-weight:bold;">$</span><span style="font-weight:bold; font-size:36px;">9.59</span> <span style="font-size:14px;">p/mo</span></div>
+                            </td>
+                            <td style="width:33.33%; padding:20px; text-align:center; vertical-align:middle;">
+                                <div style="font-size:28px;"><span style="font-weight:bold;">$</span><span style="font-weight:bold; font-size:36px;">24.99</span> <span style="font-size:14px;">p/mo</span></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; text-align:center; vertical-align:top;">
+                                <div style="font-size:14px; line-height:1.8;">
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Wallets</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Trade</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Exchange</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Processing</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Analysis</div>
+                                    <div style="color:#22c55e; margin-bottom:15px; font-weight:bold; font-size:16px;">✓ Wallets</div>
+                                    <button style="padding:8px 16px; border:1px solid #999; background:#f3f3f3; cursor:pointer; font-size:13px;">Get Started</button>
+                                </div>
+                            </td>
+                            <td style="width:33.33%; border-right:2px solid #000; padding:20px; text-align:center; vertical-align:top;">
+                                <div style="font-size:14px; line-height:1.8;">
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Wallets</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Trade</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Exchange</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Processing</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Analysis</div>
+                                    <div style="color:#22c55e; margin-bottom:15px; font-weight:bold; font-size:16px;">✓ Wallets</div>
+                                    <button style="padding:8px 16px; border:1px solid #999; background:#f3f3f3; cursor:pointer; font-size:13px;">Get Started</button>
+                                </div>
+                            </td>
+                            <td style="width:33.33%; padding:20px; text-align:center; vertical-align:top;">
+                                <div style="font-size:14px; line-height:1.8;">
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Wallets</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Trade</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Exchange</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Processing</div>
+                                    <div style="color:#22c55e; margin-bottom:5px; font-weight:bold; font-size:16px;">✓ Analysis</div>
+                                    <div style="color:#22c55e; margin-bottom:15px; font-weight:bold; font-size:16px;">✓ Wallets</div>
+                                    <button style="padding:8px 16px; border:1px solid #999; background:#f3f3f3; cursor:pointer; font-size:13px;">Get Started</button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Top Traders Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #000;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:10px; text-align:center;">
+                                <h1 style="font-size:36px; font-weight:bold; margin:0;">Top Traders</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" style="margin-top:0; border:3px solid #000; border-top:none; border-collapse:collapse;">
+                    <tbody>
+                        <tr style="border-bottom:2px solid #000;">
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">1</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Nicholas Daniels" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Nicholas Daniels</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.5 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">5</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Nicholas Daniels" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Nicholas Daniels</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.5 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">9</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Nicholas Daniels" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Nicholas Daniels</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.5 BTC</div>
+                            </td>
+                            <td style="width:25%; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">13</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Nicholas Daniels" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Nicholas Daniels</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.5 BTC</div>
+                            </td>
+                        </tr>
+                        <tr style="border-bottom:2px solid #000;">
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">2</div>
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Claude Banks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Claude Banks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">2.6 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">6</div>
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Claude Banks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Claude Banks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">2.6 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">10</div>
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Claude Banks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Claude Banks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">2.6 BTC</div>
+                            </td>
+                            <td style="width:25%; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">14</div>
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&h=150&q=80" alt="Claude Banks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Claude Banks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">2.6 BTC</div>
+                            </td>
+                        </tr>
+                        <tr style="border-bottom:2px solid #000;">
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">3</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Gayle Hicks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Gayle Hicks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.2 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">7</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Gayle Hicks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Gayle Hicks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.2 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">11</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Gayle Hicks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Gayle Hicks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.2 BTC</div>
+                            </td>
+                            <td style="width:25%; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">15</div>
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80" alt="Gayle Hicks" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Gayle Hicks</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.2 BTC</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">4</div>
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80" alt="Franklin Greer" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Franklin Greer</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.1 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">8</div>
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80" alt="Franklin Greer" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Franklin Greer</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.1 BTC</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">12</div>
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80" alt="Franklin Greer" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Franklin Greer</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.1 BTC</div>
+                            </td>
+                            <td style="width:25%; padding:15px; text-align:center; vertical-align:top;">
+                                <div style="margin-bottom:8px; font-weight:bold; font-size:18px;">16</div>
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80" alt="Franklin Greer" style="width:80px; height:80px; border-radius:8px; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:14px; margin-bottom:4px;">Franklin Greer</div>
+                                <div style="color:#0052cc; font-weight:bold; font-size:13px;">3.1 BTC</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                     <!-- View in Action Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #999; background:#f5f5f5;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:20px; text-align:center;">
+                                <h1 style="font-size:32px; font-weight:bold; margin:0 0 8px 0;">View in Action</h1>
+                                <p style="font-size:14px; color:#999; margin:0 0 20px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor.</p>
+                                <div style="position:relative; display:inline-block; width:100%; max-width:500px;">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ri7uVRwsyOY?si=VNs6Pp8wn8GstRlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+
+                <!-- View in Action Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #000;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:10px; text-align:center;">
+                                <h1 style="font-size:32px; font-weight:bold; margin:0;">Our Article</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" style="margin-top:0; border:3px solid #000; border-top:none; border-collapse:collapse;">
+                    <tbody>
+                        <tr style="border-bottom:2px solid #000;">
+                            <td style="width:25%; border-right:2px solid #000; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80" alt="Author" style="width:50px; height:50px; border-radius:50%; margin-bottom:6px;">
+                                <div style="color:#22c55e; font-size:16px; margin-bottom:8px;">✓</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80" alt="Author" style="width:50px; height:50px; border-radius:50%; margin-bottom:6px;">
+                                <div style="color:#22c55e; font-size:16px; margin-bottom:8px;">✓</div>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80" alt="Author" style="width:50px; height:50px; border-radius:50%; margin-bottom:6px;">
+                                <div style="color:#22c55e; font-size:16px; margin-bottom:8px;">✓</div>
+                            </td>
+                            <td style="width:25%; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80" alt="Author" style="width:50px; height:50px; border-radius:50%; margin-bottom:6px;">
+                                <div style="color:#22c55e; font-size:16px; margin-bottom:8px;">✓</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width:25%; border-right:2px solid #000; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1611078484120-8b8f0e5b8b2a?auto=format&fit=crop&w=150&h=120&q=80" alt="Crypto Wallet" style="width:100%; height:100px; object-fit:cover; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:13px; margin-bottom:6px;">Crypto Wallet</div>
+                                <p style="font-size:11px; color:#666; margin:0 0 6px 0;">Lorem ipsum dolor</p>
+                                <a href="#" style="color:#4b2ca6; font-size:11px; text-decoration:none; font-weight:bold;">Read More →</a>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f9cc3f?auto=format&fit=crop&w=150&h=120&q=80" alt="Margin Trade" style="width:100%; height:100px; object-fit:cover; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:13px; margin-bottom:6px;">Margin Trade</div>
+                                <p style="font-size:11px; color:#666; margin:0 0 6px 0;">Lorem ipsum dolor</p>
+                                <a href="#" style="color:#4b2ca6; font-size:11px; text-decoration:none; font-weight:bold;">Read More →</a>
+                            </td>
+                            <td style="width:25%; border-right:2px solid #000; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1554224311-beee415c201b?auto=format&fit=crop&w=150&h=120&q=80" alt="Exchange" style="width:100%; height:100px; object-fit:cover; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:13px; margin-bottom:6px;">Exchange</div>
+                                <p style="font-size:11px; color:#666; margin:0 0 6px 0;">Lorem ipsum dolor</p>
+                                <a href="#" style="color:#4b2ca6; font-size:11px; text-decoration:none; font-weight:bold;">Read More →</a>
+                            </td>
+                            <td style="width:25%; padding:12px; text-align:center; vertical-align:top;">
+                                <img src="https://images.unsplash.com/photo-1512033056312-720811289eef?auto=format&fit=crop&w=150&h=120&q=80" alt="Cryptocurrency" style="width:100%; height:100px; object-fit:cover; margin-bottom:8px;">
+                                <div style="font-weight:bold; font-size:13px; margin-bottom:6px;">Cryptocurrency</div>
+                                <p style="font-size:11px; color:#666; margin:0 0 6px 0;">Lorem ipsum dolor</p>
+                                <a href="#" style="color:#4b2ca6; font-size:11px; text-decoration:none; font-weight:bold;">Read More →</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Our Clients Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #000;">
+                    <tbody>
+                        <tr>
+                            <td style="padding:10px; text-align:center;">
+                                <h1 style="font-size:32px; font-weight:bold; margin:0;">Our Clients</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table width="100%" style="margin-top:0; border:3px solid #000; border-top:none;">
+                    <tbody>
+                        <tr>
+                            <td style="width:16.66%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:middle;">
+                                <img src="https://via.placeholder.com/120x80?text=Client+1" alt="Client 1" style="width:100%; height:80px; object-fit:contain;">
+                            </td>
+                            <td style="width:16.66%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:middle;">
+                                <img src="https://via.placeholder.com/120x80?text=Client+2" alt="Client 2" style="width:100%; height:80px; object-fit:contain;">
+                            </td>
+                            <td style="width:16.66%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:middle;">
+                                <img src="https://via.placeholder.com/120x80?text=Client+3" alt="Client 3" style="width:100%; height:80px; object-fit:contain;">
+                            </td>
+                            <td style="width:16.66%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:middle;">
+                                <img src="https://via.placeholder.com/120x80?text=Client+4" alt="Client 4" style="width:100%; height:80px; object-fit:contain;">
+                            </td>
+                            <td style="width:16.66%; border-right:2px solid #000; padding:15px; text-align:center; vertical-align:middle;">
+                                <img src="https://via.placeholder.com/120x80?text=Client+5" alt="Client 5" style="width:100%; height:80px; object-fit:contain;">
+                            </td>
+                            <td style="width:16.66%; padding:15px; text-align:center; vertical-align:middle;">
+                                <img src="https://via.placeholder.com/120x80?text=Client+6" alt="Client 6" style="width:100%; height:80px; object-fit:contain;">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Contact US and Hold or Trade Section -->
+                <table width="100%" style="margin-top:22px; border:3px solid #000; border-collapse:collapse;">
+                    <tbody>
+                        <tr>
+                            <td style="width:50%; border-right:2px solid #000; padding:30px; vertical-align:top;">
+                                <h2 style="font-size:24px; font-weight:bold; margin:0 0 15px 0;">Hold or Trade<br/>Cryptocurrency</h2>
+                                <p style="font-size:13px; color:#666; line-height:1.6; margin:0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt labore dolore magna aliqua.</p>
+                            </td>
+                            <td style="width:50%; background:#e0e0e0; padding:30px; vertical-align:top;">
+                                <h2 style="font-size:24px; font-weight:bold; margin:0 0 15px 0;">Contact US</h2>
+                                <p style="font-size:12px; color:#666; margin:0 0 15px 0;">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed eiusmod tempor</p>
+                                <form style="font-size:12px;">
+                                    <input type="text" placeholder="Enter Your Name" style="width:100%; padding:6px; margin-bottom:8px; border:1px solid #999; box-sizing:border-box;">
+                                    <input type="email" placeholder="Email" style="width:100%; padding:6px; margin-bottom:8px; border:1px solid #999; box-sizing:border-box;">
+                                    <textarea placeholder="Message" style="width:100%; padding:6px; margin-bottom:8px; border:1px solid #999; box-sizing:border-box; height:70px; resize:none;"></textarea>
+                                    <button type="submit" style="padding:6px 14px; border:1px solid #999; background:#f3f3f3; cursor:pointer; font-size:12px;">Send Message</button>
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
